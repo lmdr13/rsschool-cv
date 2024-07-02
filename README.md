@@ -1,1 +1,1 @@
-https://lmdr13.github.io/rsschool-cv/cv
+https://lmdr13.github.io/rsschool-cv
