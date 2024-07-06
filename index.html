@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="container">
+    <nav>
+        <ul class="nav_list_style">
+            <li> <a href="#contacts" class="nav_list_mem_style">Contacts</a> </li>
+            <li> <a href="#info" class="nav_list_mem_style">Personal Info</a> </li>
+            <li> <a href="#skills" class="nav_list_mem_style">Skills</a> </li>
+            <li> <a href="#code"class="nav_list_mem_style">Code</a></li>
+            <li> <a href="#courses"  class="nav_list_mem_style">Courses</a></li>
+            <li> <a href="#English"  class="nav_list_mem_style">English</a></li>
+        </ul>
+    </nav>
+    </div>
+</header>
+
+<main>
+    <div class="container">
+    <section class="profile">
+        <div>
+        <img class="avatar" src="https://avatars.akamai.steamstatic.com/abb82201252d4e9723a0dbdf0c0a39b44867f977_full.jpg"
+        alt="McLovin">
+        <h1 class="profile_title">Daniil Siarheyenka</h1></div>
+    </section>
+    <section class="line"></section>
+    <section class="section" id="contacts">
+        <h2 class="main_text">Contacts</h2>
+        <ul>
+            <li class="list_mem_style">Vitebsk, Belarus</li>
+            <li class="list_mem_style">Email: lm56dr50@gmail.com</li>
+        </ul>
+    </section>
+    <section class="section" id="info">
+        <h2 class="main_text">Personal Info</h2>
+        <p class="common_text">I am an aspiring future programmer who is currently trying to improve my skills. I aim to increase my front-end knowledge and get a job in the IT field.</p>
+    </section>
+    <section class="section" id="skills">
+        <h2 class="main_text">Skills</h2>
+        <ul>
+            <li class="list_mem_style">Frontend: HTML5, CSS3, JavaScript</li>
+            <li class="list_mem_style">Backend: C++</li>
+            <li class="list_mem_style">Version control: GIT, Github</li>
+        </ul>
+    </section>
+    <section class="section" id="code">
+        <h2 class="main_text">Code</h2>
+        <pre>
+            <code>
+                #include <iostream> 
+                using namespace std; 
+                     
+                int factorial(int n) 
+                { 
+                    if (n == 0 || n == 1) 
+                        return 1; 
+                    return n * factorial(n - 1); 
+                }                      
+                    
+                int main() 
+                { 
+                    int num = 5; 
+                    cout << factorial(num) << endl; 
+                    return 0; 
+                } 
+            </code>
+        </pre>
+    </section>
+    <section class="section" id="courses">
+        <h2 class="main_text">Courses</h2>
+        <ul>
+            <li class="list_mem_style"><a href="https://rs.school/courses/javascript" class="common_text">JavaScript / Front-end Course</a></li>
+        </ul>
+    </section>
+    <section class="last_section" id="English">
+        <h2 class="main_text">English</h2>
+        <p class="common_text">B1 - Pre-Intermediate</p>
+    </section>
+</div>
+</main>
+
+<footer>
+    <div class="container footer_container">
+    <div class="footer_text">© 2024 <a href="https://github.com/lmdr13" class="footer_text">lmdr13</a></div>
+    <a href="https://rs.school/courses/javascript-ru" class="rss"></a>
+    </div>
+</footer>
+
+
+</body>
+</html>
