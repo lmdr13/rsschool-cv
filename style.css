@@ -1,0 +1,139 @@
+html {
+    scroll-behavior: smooth;
+}
+  
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Hind", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    
+    
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+header {
+    display:flex;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 75px;
+    background-color: #2a3857;
+}
+
+.nav_list_style {
+    color:aliceblue;
+    display: flex;    
+    justify-content:flex-end;
+    align-items: center;    
+    list-style: none;
+}
+.nav_list_mem_style {
+    position: relative;
+    padding: 0 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    color:aliceblue;
+} 
+main {
+    margin-bottom: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-inline: 30px;
+}
+.main_text {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #000000;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 35px;
+}
+.profile_title {
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.line {
+    display:flex;
+    width: 75%;
+    margin: 0 auto;
+    height: 8px;
+    background-color: #2a3857;
+}
+.section {
+    width: 100%;
+    margin-top: 30px;
+    border-bottom: 1px solid #2a3857;
+    padding-bottom: 30px;
+}
+
+
+.list_mem_style {
+    position: relative;
+    padding: 0 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;   
+}
+
+.common_text {
+    font-size: 20px;
+    color: #000000;
+}
+.last_section {
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.rss {
+    background-image: url(https://raw.githubusercontent.com/rolling-scopes-school/tasks/61cea2636c5a5f660b1070fa262bbd4acc92ec66/tasks/cv/rs-school-logo.svg);
+    width: 121px;
+    height: 45px;
+}
+footer {
+    background-color: #2a3857;
+    padding: 40px;
+}
+
+.footer_text {
+    color: aliceblue;
+    font-size: 20px;
+    padding: 0 12px;
+    text-decoration: none;
+}
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+}
